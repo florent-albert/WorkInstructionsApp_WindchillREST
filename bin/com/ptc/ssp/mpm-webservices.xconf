@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE Configuration SYSTEM "xconf.dtd">
-
-<Configuration targetFile="codebase/com/ptc/windchill/rest/rest.properties">
-	<AddToProperty name="connectedplm.rest.resources" value="com.ptc.ssp.mpm.webservices.MPMWebService"/>
-</Configuration>
