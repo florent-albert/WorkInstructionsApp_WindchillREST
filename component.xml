@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="yes" ?>
+<component name="GSO Custom REST services" organisation="PTC" description="GSO Custom REST services">
+    <version major="1" minor="0" point="00" buildCode="0" />
+    <windchill release="11.0" dateCode="M030" />
+    <extension>
+        <postDeploy>
+            <ant antfile="extension/call_jsfrag_combine.xml" />
+            <ant antfile="extension/call_custom_column.xml" />
+        </postDeploy>
+    </extension>
+    <install>
+
+    </install>
+</component>
